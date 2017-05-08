@@ -9,7 +9,9 @@ const Router = Ember.Router.extend({
 Router.map(function() {
   this.route('dealerships', function() {
     this.route('new');
+    this.route('index');
   });
+
   this.route('cars');
 });
 
